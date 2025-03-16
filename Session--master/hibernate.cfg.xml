@@ -1,0 +1,14 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://pg-1399955a-ggokulraj686-20df.k.aivencloud.com:13970/defaultdb?sslmode=require</property>
+        <property name="hibernate.connection.username">avnadmin</property>
+        <property name="hibernate.connection.password">AVNS_sf5nGgGTWi3gCjWK_NP</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <mapping class="project.study.model.TodoJpa"/>
+    </session-factory>
+</hibernate-configuration>
